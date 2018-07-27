@@ -22,3 +22,9 @@
 12:48:40.972 [main] INFO  resources.Base - HomePageTitleValidation Screenshot success!
 12:49:05.940 [main] INFO  resources.Base - BasePageNavigation Screenshot success!
 12:49:11.128 [main] INFO  resources.Base - BasePageNavigation Screenshot success!
+14:18:16.074 [main] INFO  LoveAndCo.ValidateTitle - Driver is initialised
+14:18:22.897 [main] INFO  LoveAndCo.ValidateTitle - Navigated to Home Page
+14:18:23.026 [main] INFO  LoveAndCo.ValidateTitle - Successfully Validated Text Message
+14:18:23.801 [main] INFO  resources.Base - HomePageTitleValidation Screenshot success!
+14:18:46.123 [main] INFO  resources.Base - BasePageNavigation Screenshot success!
+14:18:50.950 [main] INFO  resources.Base - BasePageNavigation Screenshot success!
