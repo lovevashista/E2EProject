@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35500" started-at="2018-07-18T06:41:14Z" finished-at="2018-07-18T06:41:50Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="9183" started-at="2018-07-18T06:41:14Z" finished-at="2018-07-18T06:41:23Z">
+      <class name="LoveAndCo.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:LoveAndCo.ValidateTitle@7ed7259e]" name="initialize" is-config="true" duration-ms="8204" started-at="2018-07-18T06:41:14Z" finished-at="2018-07-18T06:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="HomePageTitleValidation()[pri:0, instance:LoveAndCo.ValidateTitle@7ed7259e]" name="HomePageTitleValidation" duration-ms="109" started-at="2018-07-18T06:41:22Z" finished-at="2018-07-18T06:41:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTitleValidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LoveAndCo.ValidateTitle@7ed7259e]" name="tearDown" is-config="true" duration-ms="176" started-at="2018-07-18T06:41:23Z" finished-at="2018-07-18T06:41:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoveAndCo.ValidateTitle -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="21275" started-at="2018-07-18T06:41:28Z" finished-at="2018-07-18T06:41:50Z">
+      <class name="LoveAndCo.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:LoveAndCo.HomePage@1ab3a8c8]" name="initialize" is-config="true" duration-ms="1024" started-at="2018-07-18T06:41:28Z" finished-at="2018-07-18T06:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="BasePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:LoveAndCo.HomePage@1ab3a8c8]" name="BasePageNavigation" duration-ms="15054" started-at="2018-07-18T06:41:29Z" data-provider="getData" finished-at="2018-07-18T06:41:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method status="PASS" signature="BasePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:LoveAndCo.HomePage@1ab3a8c8]" name="BasePageNavigation" duration-ms="4121" started-at="2018-07-18T06:41:45Z" data-provider="getData" finished-at="2018-07-18T06:41:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LoveAndCo.HomePage@1ab3a8c8]" name="tearDown" is-config="true" duration-ms="162" started-at="2018-07-18T06:41:50Z" finished-at="2018-07-18T06:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoveAndCo.HomePage -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

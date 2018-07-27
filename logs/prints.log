@@ -1,0 +1,18 @@
+12:08:19.900 [main] INFO  LoveAndCo.ValidateTitle - Driver is initialised
+12:08:25.219 [main] INFO  LoveAndCo.ValidateTitle - Navigated to Home Page
+12:08:25.351 [main] INFO  LoveAndCo.ValidateTitle - Successfully Validated Text Message
+12:08:25.977 [main] INFO  resources.Base - HomePageTitleValidation Screenshot success!
+12:08:48.027 [main] INFO  resources.Base - BasePageNavigation Screenshot success!
+12:08:52.697 [main] INFO  resources.Base - BasePageNavigation Screenshot success!
+12:11:16.668 [main] INFO  LoveAndCo.ValidateTitle - Driver is initialised
+12:11:22.938 [main] INFO  LoveAndCo.ValidateTitle - Navigated to Home Page
+12:11:23.080 [main] INFO  LoveAndCo.ValidateTitle - Successfully Validated Text Message
+12:11:23.739 [main] INFO  resources.Base - HomePageTitleValidation Screenshot success!
+12:11:45.535 [main] INFO  resources.Base - BasePageNavigation Screenshot success!
+12:11:50.071 [main] INFO  resources.Base - BasePageNavigation Screenshot success!
+14:56:59.532 [main] INFO  LoveAndCo.ValidateTitle - Driver is initialised
+14:57:05.996 [main] INFO  LoveAndCo.ValidateTitle - Navigated to Home Page
+14:57:06.124 [main] INFO  LoveAndCo.ValidateTitle - Successfully Validated Text Message
+14:57:06.842 [main] INFO  resources.Base - HomePageTitleValidation Screenshot success!
+14:57:30.724 [main] INFO  resources.Base - BasePageNavigation Screenshot success!
+14:57:35.606 [main] INFO  resources.Base - BasePageNavigation Screenshot success!

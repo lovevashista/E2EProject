@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="LoveAndCo.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="LoveAndCo.ValidateTitle">
+        <methods>
+          <include name="tearDown"/>
+          <include name="HomePageTitleValidation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- LoveAndCo.ValidateTitle -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="LoveAndCo.HomePage">
+        <methods>
+          <include name="BasePageNavigation"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- LoveAndCo.HomePage -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
