@@ -1,3 +1,4 @@
 PageObjects/HomePageObjects.class
 PageObjects/LoginPageObjects.class
+resources/ExtentReporterNG.class
 resources/Base.class

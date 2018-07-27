@@ -102,12 +102,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="LoveAndCo.HomePage" hash-for-method="BasePageNavigation(User1, Password1)">BasePageNavigation(User1, Password1)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="LoveAndCo.HomePage" hash-for-method="BasePageNavigation(User2, Password2)">BasePageNavigation(User2, Password2)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="LoveAndCo.HomePage" hash-for-method="BasePageNavigation(User2, Password2)">BasePageNavigation(User2, Password2)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="LoveAndCo.HomePage" hash-for-method="BasePageNavigation(User1, Password1)">BasePageNavigation(User1, Password1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -130,30 +130,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">LoveAndCo.HomePage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="BasePageNavigation(User1, Password1)">
-                  </a> <!-- BasePageNavigation(User1, Password1) -->
-                  <span class="method-name">BasePageNavigation</span>
-                  <span class="parameters">(User1, Password1)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="BasePageNavigation(User2, Password2)">
-                  </a> <!-- BasePageNavigation(User2, Password2) -->
-                  <span class="method-name">BasePageNavigation</span>
-                  <span class="parameters">(User2, Password2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">LoveAndCo.ValidateTitle</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -162,6 +138,30 @@
                   <a name="HomePageTitleValidation">
                   </a> <!-- HomePageTitleValidation -->
                   <span class="method-name">HomePageTitleValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">LoveAndCo.HomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BasePageNavigation(User2, Password2)">
+                  </a> <!-- BasePageNavigation(User2, Password2) -->
+                  <span class="method-name">BasePageNavigation</span>
+                  <span class="parameters">(User2, Password2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BasePageNavigation(User1, Password1)">
+                  </a> <!-- BasePageNavigation(User1, Password1) -->
+                  <span class="method-name">BasePageNavigation</span>
+                  <span class="parameters">(User1, Password1)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -178,6 +178,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;LoveAndCo.Listeners&quot;/&gt;
+    &lt;listener class-name=&quot;resources.ExtentReporterNG&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test1&quot;&gt;
     &lt;classes&gt;
@@ -233,20 +234,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'BasePageNavigation')
 data.setCell(0, 2, 'LoveAndCo.HomePage')
-data.setCell(0, 3, 15054);
+data.setCell(0, 3, 16872);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'BasePageNavigation')
 data.setCell(1, 2, 'LoveAndCo.HomePage')
-data.setCell(1, 3, 4121);
+data.setCell(1, 3, 4771);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'HomePageTitleValidation')
 data.setCell(2, 2, 'LoveAndCo.ValidateTitle')
-data.setCell(2, 3, 109);
+data.setCell(2, 3, 113);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -279,30 +280,30 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">HomePageTitleValidation</span>
-                <span class="method-start">8236 ms</span>
+                <span class="method-start">11409 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9005 ms</span>
+                <span class="method-start">12240 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">LoveAndCo.HomePage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">14224 ms</span>
+                <span class="method-start">17473 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">BasePageNavigation(User1, Password1)</span>
-                <span class="method-start">15253 ms</span>
+                <span class="method-start">19922 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">BasePageNavigation(User2, Password2)</span>
-                <span class="method-start">30802 ms</span>
+                <span class="method-start">37204 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35337 ms</span>
+                <span class="method-start">42392 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

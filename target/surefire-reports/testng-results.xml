@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="35500" started-at="2018-07-18T06:41:14Z" finished-at="2018-07-18T06:41:50Z">
+  <suite name="Suite" duration-ms="42574" started-at="2018-07-27T07:18:28Z" finished-at="2018-07-27T07:19:11Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="9183" started-at="2018-07-18T06:41:14Z" finished-at="2018-07-18T06:41:23Z">
+    <test name="Test1" duration-ms="12426" started-at="2018-07-27T07:18:28Z" finished-at="2018-07-27T07:18:41Z">
       <class name="LoveAndCo.ValidateTitle">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:LoveAndCo.ValidateTitle@7ed7259e]" name="initialize" is-config="true" duration-ms="8204" started-at="2018-07-18T06:41:14Z" finished-at="2018-07-18T06:41:22Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:LoveAndCo.ValidateTitle@188715b5]" name="initialize" is-config="true" duration-ms="11384" started-at="2018-07-27T07:18:28Z" finished-at="2018-07-27T07:18:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="HomePageTitleValidation()[pri:0, instance:LoveAndCo.ValidateTitle@7ed7259e]" name="HomePageTitleValidation" duration-ms="109" started-at="2018-07-18T06:41:22Z" finished-at="2018-07-18T06:41:23Z">
+        <test-method status="PASS" signature="HomePageTitleValidation()[pri:0, instance:LoveAndCo.ValidateTitle@188715b5]" name="HomePageTitleValidation" duration-ms="113" started-at="2018-07-27T07:18:40Z" finished-at="2018-07-27T07:18:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageTitleValidation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:LoveAndCo.ValidateTitle@7ed7259e]" name="tearDown" is-config="true" duration-ms="176" started-at="2018-07-18T06:41:23Z" finished-at="2018-07-18T06:41:23Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LoveAndCo.ValidateTitle@188715b5]" name="tearDown" is-config="true" duration-ms="185" started-at="2018-07-27T07:18:40Z" finished-at="2018-07-27T07:18:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- LoveAndCo.ValidateTitle -->
     </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="21275" started-at="2018-07-18T06:41:28Z" finished-at="2018-07-18T06:41:50Z">
+    <test name="Test2" duration-ms="25100" started-at="2018-07-27T07:18:46Z" finished-at="2018-07-27T07:19:11Z">
       <class name="LoveAndCo.HomePage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:LoveAndCo.HomePage@1ab3a8c8]" name="initialize" is-config="true" duration-ms="1024" started-at="2018-07-18T06:41:28Z" finished-at="2018-07-18T06:41:29Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:LoveAndCo.HomePage@52e6fdee]" name="initialize" is-config="true" duration-ms="2446" started-at="2018-07-27T07:18:46Z" finished-at="2018-07-27T07:18:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="BasePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:LoveAndCo.HomePage@1ab3a8c8]" name="BasePageNavigation" duration-ms="15054" started-at="2018-07-18T06:41:29Z" data-provider="getData" finished-at="2018-07-18T06:41:45Z">
+        <test-method status="PASS" signature="BasePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:LoveAndCo.HomePage@52e6fdee]" name="BasePageNavigation" duration-ms="16872" started-at="2018-07-27T07:18:48Z" data-provider="getData" finished-at="2018-07-27T07:19:05Z">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BasePageNavigation -->
-        <test-method status="PASS" signature="BasePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:LoveAndCo.HomePage@1ab3a8c8]" name="BasePageNavigation" duration-ms="4121" started-at="2018-07-18T06:41:45Z" data-provider="getData" finished-at="2018-07-18T06:41:49Z">
+        <test-method status="PASS" signature="BasePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:LoveAndCo.HomePage@52e6fdee]" name="BasePageNavigation" duration-ms="4771" started-at="2018-07-27T07:19:05Z" data-provider="getData" finished-at="2018-07-27T07:19:10Z">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BasePageNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:LoveAndCo.HomePage@1ab3a8c8]" name="tearDown" is-config="true" duration-ms="162" started-at="2018-07-18T06:41:50Z" finished-at="2018-07-18T06:41:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LoveAndCo.HomePage@52e6fdee]" name="tearDown" is-config="true" duration-ms="181" started-at="2018-07-27T07:19:11Z" finished-at="2018-07-27T07:19:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
